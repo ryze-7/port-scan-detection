@@ -507,16 +507,3 @@ index=main sourcetype="_json" source_ip="<IP>" | bucket _time span=2m | stats co
 ```
 
 ---
-
-## Version History
-
-| Version | Date | Author | Changes |
-|---------|------|--------|---------|
-| 1.0 | May 2026 | Shourya | Initial playbook creation |
-
-**Last Updated:** May 2026  
-**Next Review:** August 2026
-
----
-
-**Questions?** Contact SOC Lead or create GitHub issue on port-scan-detection repo.
