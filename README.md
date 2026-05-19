@@ -338,19 +338,6 @@ index=main sourcetype="_json" target_ip="192.168.1.21"
 - **Scanning technique:** Multi-stage Nmap reconnaissance
 - **Duration:** 2-minute active scanning window
 - **Speed:** 1,000+ probes/minute = automated tool
-- 
----
-
-## Tools Used
-
-| Tool | Version | Purpose |
-|------|---------|---------|
-| Kali Linux | Latest | Attack platform (Nmap source) |
-| Nmap | 7.92+ | Port scanner (attack tool) |
-| tcpdump | 4.9+ | Packet capture utility |
-| Zeek | 5.0+ | Network analysis framework |
-| Python 3 | 3.8+ | JSON conversion scripting |
-| Splunk Enterprise | 10.2.1 | SIEM platform (detection) |
 
 ---
 
