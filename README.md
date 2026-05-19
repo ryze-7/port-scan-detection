@@ -338,16 +338,7 @@ index=main sourcetype="_json" target_ip="192.168.1.21"
 - **Scanning technique:** Multi-stage Nmap reconnaissance
 - **Duration:** 2-minute active scanning window
 - **Speed:** 1,000+ probes/minute = automated tool
-
-**Detection Effectiveness:**
-| Attack Type | Detected | Indicator |
-|------------|----------|-----------|
-| SYN Scan | ✅ | S0 state, rapid port enumeration |
-| UDP Scan | ✅ | UDP protocol to SNMP/NTP/DNS ports |
-| Version Detection | ✅ | Service banner grab attempts |
-| OS Fingerprinting | ✅ | Non-standard TCP flags |
-| ACK Scan | ✅ | RSTO state, firewall mapping |
-
+- 
 ---
 
 ## Tools Used
@@ -360,55 +351,6 @@ index=main sourcetype="_json" target_ip="192.168.1.21"
 | Zeek | 5.0+ | Network analysis framework |
 | Python 3 | 3.8+ | JSON conversion scripting |
 | Splunk Enterprise | 10.2.1 | SIEM platform (detection) |
-
----
-
-## SOC L1 Skills Demonstrated
-
-✅ **Network Reconnaissance Detection** - Identify scanning patterns and attack signatures  
-✅ **SIEM Query Optimization** - Write efficient Splunk queries for large datasets  
-✅ **Log Normalization** - Transform raw data (TSV) into queryable format (JSON)  
-✅ **Dashboard Design** - Create 6-panel dashboard for real-time alerting  
-✅ **Threshold Tuning** - Reduce false positives while maintaining detection  
-✅ **Attack Methodology** - Understand Nmap scan types and network behavior  
-✅ **Incident Analysis** - Correlate multiple detection signals into coherent threat picture  
-✅ **Documentation** - Document findings for compliance and knowledge sharing  
-
----
-
-## Portfolio Value
-
-**For SOC L1 Interviews:**
-- Demonstrates hands-on SIEM experience (Splunk)
-- Shows understanding of network attack lifecycle
-- Proves ability to build detection logic from scratch
-- Highlights log analysis and data transformation skills
-- Documents complete attack-to-detection pipeline
-
-**Difficulty Level:** Intermediate  
-**Time to Complete:** 3-4 hours  
-**SOC L1 Relevance:** ⭐⭐⭐⭐⭐
-
----
-
-## Next Steps in Portfolio
-
-This is **Project 1 of 4** in my SOC L1 Detection Engineering Portfolio:
-
-1. ✅ **Port Scan Detection** (Complete)
-2. 🔄 **Windows Brute Force Detection** (In Progress)
-   - Event ID 4625 (failed login) analysis
-   - RDP/SMB authentication attacks
-   
-3. **Data Exfiltration Detection** (Planned)
-   - DNS tunneling detection
-   - Behavioral volume anomalies
-   
-4. **Malware/C2 Detection** (Planned)
-   - Threat intelligence integration
-   - Incident response playbook
-
-**Target:** SOC L1 job readiness by June 2026
 
 ---
 
